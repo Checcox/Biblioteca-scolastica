@@ -24,5 +24,16 @@ namespace Libreria
         {
             InitializeComponent();
         }
+        Libro libroInserito;
+
+        private void btnLibro_Click(object sender, RoutedEventArgs e)
+        {
+             new Libro(txtTitolo.Text, txtAutore.Text,Int16.Parse(txtNumPagine.Text));         
+        }
+        
+        private void btnIndiceLista_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
