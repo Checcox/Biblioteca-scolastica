@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Libreria
+namespace Libreria //ciao
 {
     /// <summary>
     /// Logica di interazione per MainWindow.xaml
